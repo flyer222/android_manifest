@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="github"
+	  fetch="https://github.com/flyer222" />
+
+  <remote name="opengapps" 
+	  fetch="https://github.com/opengapps/"  />
+  <remote name="opengapps-gitlab" 
+	  fetch="https://gitlab.opengapps.org/opengapps/"  />
+
+
+  <default revision="master"
+           remote="aosp"
+           sync-j="24" />
+
+  <project path="s905x3" name="amlogic-s905x3-android9" />
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<!-- 
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+-->
+
+</manifest>
