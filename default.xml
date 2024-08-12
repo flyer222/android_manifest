@@ -14,7 +14,7 @@
 
 
   <default revision="master"
-           remote="aosp"
+           remote="github"
            sync-j="24" />
 
   <project path="s905x3" name="amlogic-s905x3-android9" />
