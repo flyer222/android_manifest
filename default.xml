@@ -8,7 +8,7 @@
 	  fetch="https://github.com/flyer222" />
 
   <remote  name="privated"
-	  fetch="git@github.com:flyer222/vendor_xingyi_aml.git" />
+	  fetch="git@github.com:flyer222" />
 
   <remote name="opengapps" 
 	  fetch="https://github.com/opengapps/"  />
