@@ -22,7 +22,7 @@
 
   <project path="s905x3" name="amlogic-s905x3-android9" />
   <project path="s905x3/vendor/xingyi" name="vendor_xingyi_aml" revision="main" remote="privated"/>
-  <project path="s905x3/vendor/xingyi/atv" name="aml_pi_gms"    revision="main" remote="privated"/>
+  <project path="s905x3/vendor/xingyi/gms_tv" name="aml_pi_gms"    revision="main" remote="privated"/>
 
   <project path="s905x3/vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="s905x3/vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
