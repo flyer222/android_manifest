@@ -25,6 +25,7 @@
   <project path="s905x3/bootloader/uboot-repo" name="amlogic_uboot2015" revision="main" remote="privated"/>
   <project path="s905x3/vendor/xingyi" name="vendor_xingyi_aml" revision="main" remote="privated"/>
   <project path="s905x3/vendor/xingyi/gms_tv" name="aml_pi_gms"    revision="main" remote="privated"/>
+  <project path="s905x3/packages/apps/TvSettings" name="aml_packages_apps_TvSettings" revision="main" remote="privated"/>
 
   <project path="s905x3/vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="s905x3/vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
