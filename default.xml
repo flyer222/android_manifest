@@ -20,8 +20,8 @@
            remote="github"
            sync-j="24" />
 
-  <project path="s905x3" name="amlogic-s905x3-android9" revision="split" />
-  <project path="s905x3/frameworks/base" name="android_frameworks_base" revision="aml_pi" />
+  <project path="s905x3" name="amlogic-s905x3-android9" clone-depth="1" revision="split" />
+  <project path="s905x3/frameworks/base" name="android_frameworks_base" clone-depth="1" revision="aml_pi" />
   <project path="s905x3/common" name="amlogic_common_4.9" revision="main" remote="privated"/>
   <project path="s905x3/bootloader/uboot-repo" name="amlogic_uboot2015" revision="main" remote="privated"/>
   <project path="s905x3/vendor/xingyi" name="vendor_xingyi_aml" revision="main" remote="privated"/>
