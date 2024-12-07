@@ -21,12 +21,13 @@
            sync-j="24" />
 
   <project path="s905x3" name="amlogic-s905x3-android9" clone-depth="1" revision="split" />
-  <project path="s905x3/frameworks/base" name="android_frameworks_base" clone-depth="1" revision="aml_pi" />
+  <project path="s905x3/frameworks/base" name="android_frameworks_base"  revision="aml_pi" remote="privated" />
   <project path="s905x3/common" name="amlogic_common_4.9" revision="main" remote="privated"/>
   <project path="s905x3/bootloader/uboot-repo" name="amlogic_uboot2015" revision="main" remote="privated"/>
   <project path="s905x3/vendor/xingyi" name="vendor_xingyi_aml" revision="main" remote="privated"/>
   <project path="s905x3/vendor/xingyi/gms_tv" name="aml_pi_gms"    revision="main" remote="privated"/>
   <project path="s905x3/packages/apps/TvSettings" name="aml_packages_apps_TvSettings" revision="main" remote="privated"/>
+  <project path="s905x3/vendor/xingyi/kernel_modules/kara_ker" name="kara_ker"  revision="s905l3a_m401a" remote="privated"/>
 
   <project path="s905x3/vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="s905x3/vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
