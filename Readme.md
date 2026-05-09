@@ -54,6 +54,12 @@ brunch m5
 链接: https://pan.baidu.com/s/1U9207fZMf3EeKb25B0uZVQ?pwd=kx8h 提取码: kx8h
 
 
+
+for radxa02 device
+repo init -u  https://github.com/flyer222/android_manifest.git -b lineageos_m5 -m radxa02 --git-lfs
+
+
+
 MyTarget:
 -------
 

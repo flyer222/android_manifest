@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/radxa/radxa02" remote="github" name="LineageOS/android_device_radxa_radxa02" />
+  <project path="device/amlogic/g12-common" remote="github" name="LineageOS/android_device_amlogic_g12-common" />
+  <project path="kernel/amlogic/kernel-modules/dhd-driver" remote="github" name="LineageOS/android_hardware_amlogic_kernel-modules_dhd-driver" />
+  <project path="device/amlogic/common" remote="github" name="LineageOS/android_device_amlogic_common" />
+  <project path="kernel/amlogic/kernel-modules/mali-driver" remote="github" name="LineageOS/android_hardware_amlogic_kernel-modules_mali-driver" />
+  <project path="kernel/amlogic/kernel-modules/media-4.9" remote="github" name="LineageOS/android_hardware_amlogic_kernel-modules_media" />
+  <project path="kernel/amlogic/kernel-modules/optee" remote="github" name="LineageOS/android_hardware_amlogic_kernel-modules_optee" />
+  <project path="kernel/amlogic/linux-4.9" remote="github" name="LineageOS/android_kernel_amlogic_linux-4.9" />
+  <project path="device/amlogic/sepolicy" remote="github" name="LineageOS/android_device_amlogic_sepolicy" />
+  <project path="hardware/amlogic/tools/dtbtool" remote="github" name="LineageOS/android_hardware_amlogic_tools_dtbtool" />
+  <project path="hardware/amlogic/tools/imagepacker" remote="github" name="LineageOS/android_hardware_amlogic_tools_imagepacker" />
+  <project path="hardware/amlogic/tools/respacker" remote="github" name="LineageOS/android_hardware_amlogic_tools_respacker" />
+</manifest>

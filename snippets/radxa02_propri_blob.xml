@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="TheMuppets/proprietary_vendor_amlogic_g12-common"
+           path="vendor/amlogic/g12-common"
+           remote="github"
+           revision="lineage-22.2"
+           clone-depth="1" />
+
+  <project name="TheMuppets/proprietary_vendor_amlogic_radxa0"
+           path="vendor/amlogic/radxa02"
+           remote="github"
+           revision="lineage-22.0"
+           clone-depth="1" />
+
+</manifest>
+
