@@ -56,8 +56,8 @@ brunch m5
 
 
 for radxa02 device
-repo init -u  https://github.com/flyer222/android_manifest.git -b lineageos_m5 -m radxa02 --git-lfs
 
+repo init -u  https://github.com/flyer222/android_manifest.git -b lineageos_m5 -m radxa02.xml --git-lfs
 
 
 MyTarget:
