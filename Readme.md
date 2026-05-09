@@ -40,11 +40,21 @@ Builds produced weekly by the buildbot can be downloaded from [LineageOS downloa
 MyBuild
 --------
 
+
+repo init -u  https://github.com/flyer222/android_manifest.git -b lineageos_m5 --git-lfs
+repo sync 
+
+all dependence all merged to xmls.
+
+brunch m5
+
+
 通过网盘分享的文件：amlogic_m5
 链接: https://pan.baidu.com/s/1U9207fZMf3EeKb25B0uZVQ?pwd=kx8h 提取码: kx8h
 
 
 MyTarget:
+-------
 
 In my free time, Porting s905l3/a/ab to lineageOs, for update to latest AOSP versions
 
