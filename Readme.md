@@ -42,6 +42,7 @@ MyBuild
 
 
 repo init -u  https://github.com/flyer222/android_manifest.git -b lineageos_m5 --git-lfs
+
 repo sync 
 
 all dependence all merged to xmls.
