@@ -1,0 +1,84 @@
+
+ls uboot/board/amlogic/*
+a1_ad401         c2_af400       Kconfig             s4_ap2327         sc2_ah232                  t7_an400_mercury
+a1_ad402         c2_af401       odroid-c2           s4_aq222          sc2_skt                    t7_an400p_lpddr4x
+a1_ad403         c2_af402       p1_as400            s4_aq229          sm1_ac200_v1               t7_an408_lpddr4x
+a1_ad409         c2_af409       p1_as408            s4_aq2432         sm1_skt_v1                 t7_an409_ddr4
+a1_ad40ae        c2_af419       p1_as409            s4_bf201          t3_skt                     t7_an40a1
+a1_t404          c2_skt         p1_ninox_4          s4_skt            t3_t965d4                  t7_revc_skt
+a4_ba400         c3_aw402       p1_skt              s4_t211           t3_t982                    t7_skt
+a4_ba400_zircon  c3_aw402s      p212                s5_ax201          t3x_bc302                  t7_t319
+a4_ba409         c3_aw409       q200                s5_ax208          t3x_bc303                  txhd2_be301
+a4_skt           c3_aw409_emmc  s400                s5_ax209          t3x_bc309                  txhd2_be309
+a5_av400         c3_aw419       s4_ap201            s5_skt            t3x_sky                    txhd2_be311
+a5_av400_zircon  c3_aw429       s4_ap222            sc2_ah212         t5m_ay301                  txhd2_be312
+a5_av409         c3_skt         s4_ap222_debian     sc2_ah212_ddr3    t5m_ay309                  txhd2_be319
+a5_skt           common         s4_ap223            sc2_ah212_debian  t5m_skt                    txhd2_skt
+c1_ae400         configs        s4_ap229            sc2_ah212_lpddr3  t5w_at301_v1
+c1_ae401         defconfigs     s4_ap229_s905c3eng  sc2_ah212_lpddr4  t7_an400_lpddr4x
+c1_ae402         g12a_u200_v1   s4_ap22cb           sc2_ah219         t7_an400_lpddr4x_bluebell
+c1_ae409         g12b_w400_v1   s4_ap232            sc2_ah221         t7_an400_lpddr4x_debian
+
+
+
+a1/g12a/s4等 soc的代号，
+
+
+
+
+
+soc id  都是来自于互联网。
+这种Id 在uboot/ATF/kernel中id 信息可能还不一样。
+如S905
+ATF  CROSS_COMPILE=aarch64-linux-gnu- make DEBUG=1 PLAT=gxbb bl31   PLAT---具体是啥不需要知道，amlogic 已经编译好了bl1/bl31/bl32,而且做好了和uboot 中soc的代号是一样的。
+
+A113X2	A5
+A113L2	A4
+A113L	A1
+A311D	G12B	BananaPi BPI-CM4, Khadas VIM3
+A311D2	T7
+S905X2	G12A	SEI510
+S905D2	G12A	U200
+S905X3	SM1
+S905D3	SM1	    CEK8902-S905D3
+S905X	GXL	    Khadas VIM1
+S922X	G12B
+S805X2	S4
+S805X3	S7
+S905X5	S6
+S905X5M	S7D	
+C308L	C3
+
+
+a1
+a4
+a5
+axg  A113D 
+c1
+c2
+c3
+g12a  s905x3/l3a/l3ab
+g12b S922X
+gxb 
+gxl   S905X, S905W,s905d,s905l,s905l3b,s90512/s90513,
+gxtvbb
+p1
+s1a
+s4
+s5
+s7
+sc2
+sm1
+t3
+t3x
+t5
+t5d
+t5m
+t5w
+t7
+tl1
+tm2
+txhd
+txhd2
+txl
+txlx
